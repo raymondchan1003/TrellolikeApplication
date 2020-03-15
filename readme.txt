@@ -1,3 +1,4 @@
-Please open command prompt
-1) Start json-server by using command "npm run json:server" 
-2) Run/Host the project by using command "npm start"
+Please open two separate command prompt.
+
+* First Command Prompt is for start json-server by enter command line "npm run json:server" 
+* Second Command Prompt is for run/host the project by enter command line "npm start"
