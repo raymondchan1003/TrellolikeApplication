@@ -1,0 +1,17 @@
+{
+  "name": "trellolike_application_chanjunyi",
+  "version": "1.0.0",
+  "description": "TechnicalTest",
+  "main": "main.js",
+  "dependencies": {
+    "json-server": "^0.16.1",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "live-server",
+    "json:server": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

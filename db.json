@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "title": "Facebook",
+      "author": "Ray",
+      "id": 1
+    },
+    {
+      "title": "Google K",
+      "author": "Mr Google",
+      "id": 2
+    },
+    {
+      "title": "Covid-19",
+      "author": "Worldwide",
+      "id": 3
+    }
+  ]
+}

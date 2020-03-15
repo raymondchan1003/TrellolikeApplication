@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trello-like Application</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h2>Trello-like Application (Developed by : Chan Jun Yi)</h2>
+      </header>
+      <div class="addColumnOrCard">
+        <input
+          type="button"
+          value="Add New Column"
+          class="button"
+          onclick="addColumn()"
+        />
+        <input
+          type="button"
+          value="Add New Card"
+          class="button"
+          onclick="addNewCard()"
+        />
+      </div>
+
+      <div id="column" class="lists">
+        <div id="column-list" class="list"></div>
+      </div>
+
+      <div id="addPostDiv" class="addPostStyle">
+        <h2>ADD POST</h2>
+        <div style="margin: 8px 0px;">
+          Title <br />
+          <input
+            id="addPostTitle"
+            type="text"
+            style="padding: 3px 5px; box-sizing: border-box;width: 80%;margin: 3px 0px;"
+          />
+          <br />
+          Author <br />
+          <input
+            id="addPostAuthor"
+            type="text"
+            style="padding: 3px 5px; box-sizing: border-box;width: 80%;margin: 3px 0px;"
+          />
+        </div>
+
+        <input
+          type="button"
+          value="Create"
+          class="button"
+          onclick="createPost()"
+        />
+        <input
+          type="button"
+          value="Cancel"
+          class="button"
+          onclick="cancelCreatePost()"
+        />
+      </div>
+
+      <div id="modifyPostDiv" class="modifyPostStyle">
+        <h2>MODIFY POST</h2>
+        <div style="margin: 8px 0px;">
+          Title <br />
+          <input
+            id="modifyPostTitle"
+            type="text"
+            style="padding: 3px 5px; box-sizing: border-box;width: 80%;margin: 3px 0px;"
+          />
+          <br />
+          Author <br />
+          <input
+            id="modifyPostAuthor"
+            type="text"
+            style="padding: 3px 5px; box-sizing: border-box;width: 80%;margin: 3px 0px;"
+          />
+        </div>
+        <input
+          type="button"
+          value="Update"
+          class="button"
+          onclick="modifyPost()"
+        />
+        <input
+          type="button"
+          value="Cancel"
+          class="button"
+          onclick="cancelModifyPost()"
+        />
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
